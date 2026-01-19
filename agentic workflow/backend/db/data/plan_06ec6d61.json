@@ -1,0 +1,387 @@
+{
+  "daily_plan": {
+    "date": "2026-01-16",
+    "leetcode": {
+      "target_count": 5,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 2,
+        "hard": 0
+      },
+      "focus_topics": [
+        "Arrays",
+        "Strings",
+        "SQL",
+        "Data Structures"
+      ],
+      "problems": [
+        {
+          "number": 1,
+          "title": "Two Sum",
+          "difficulty": "Easy",
+          "topic": "Arrays & Hash Maps",
+          "url": "https://leetcode.com/problems/two-sum/",
+          "relevance": "Frequently cited in Google interview prep; tests hash map usage and time–space trade-offs.",
+          "key_concept": "O(n) lookup with a hash map; when to trade space for time.",
+          "status": "pending"
+        },
+        {
+          "number": 26,
+          "title": "Remove Duplicates from Sorted Array",
+          "difficulty": "Easy",
+          "topic": "Arrays & Two-Pointer Technique",
+          "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+          "relevance": "High-frequency Google topic; in-place array manipulation without extra space.",
+          "key_concept": "Two pointers for in-place updates and memory-efficient processing.",
+          "status": "pending"
+        },
+        {
+          "number": 20,
+          "title": "Valid Parentheses",
+          "difficulty": "Easy",
+          "topic": "Data Structures (Stack)",
+          "url": "https://leetcode.com/problems/valid-parentheses/",
+          "relevance": "Canonical stack problem common in phone screens.",
+          "key_concept": "LIFO stack behavior for nested structure validation.",
+          "status": "pending"
+        },
+        {
+          "number": 3,
+          "title": "Longest Substring Without Repeating Characters",
+          "difficulty": "Medium",
+          "topic": "Strings & Sliding Window",
+          "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+          "relevance": "Staple Google problem; applies sliding window and set/map patterns.",
+          "key_concept": "Dynamic window expansion/contraction with a hash set/map.",
+          "status": "pending"
+        },
+        {
+          "number": 176,
+          "title": "Second Highest Salary",
+          "difficulty": "Medium",
+          "topic": "SQL & Window Functions",
+          "url": "https://leetcode.com/problems/second-highest-salary/",
+          "relevance": "Common SQL screening task; tests ranking and aggregation logic. Maps to BigQuery-style analytics.",
+          "key_concept": "Ranking via window functions (DENSE_RANK/ROW_NUMBER), DISTINCT, and NULL handling.",
+          "status": "pending"
+        }
+      ],
+      "progression_logic": "Two Sum introduces hash maps; Remove Duplicates adds two-pointer array skills; Valid Parentheses cements stacks; Longest Substring combines hash maps with sliding window; Second Highest Salary applies SQL ranking patterns akin to BigQuery analytics.",
+      "role_alignment": "Problems 1-4 sharpen algorithmic thinking for data processing pipelines. Problem 5 maps to BigQuery-style ranking and metrics analysis relevant to the matched Google roles.",
+      "reasoning": "As an entry-level engineer with 1 year of experience, focusing on fundamental data structures with mostly easy and some medium problems will build confidence and strengthen core skills. The topics align with his proficiency in Java, Python, and database technologies, which will be crucial for his target roles."
+    },
+    "applications": {
+      "target_count": 2,
+      "job_types": [
+        "ML Infrastructure Engineer",
+        "Full Stack Developer with AI/ML focus"
+      ],
+      "companies_to_target": [
+        "Google",
+        "FAANG companies with ML focus",
+        "Companies accepting 1 year experience with advanced degree"
+      ],
+      "reasoning": "With a Master's in Computer Engineering specializing in Data Science and 1 year of experience, Abhi qualifies for Google's entry-level roles that accept advanced degrees. Both roles align perfectly with his ML and full-stack strengths."
+    },
+    "learning_tasks": [
+      {
+        "task": "AWS Fundamentals - EC2 and S3",
+        "time_estimate": "45 min",
+        "reasoning": "Expanding cloud knowledge beyond Google Cloud will make him more versatile for various roles."
+      },
+      {
+        "task": "Introduction to Docker",
+        "time_estimate": "60 min",
+        "reasoning": "Docker is a fundamental DevOps tool that will address his gap in DevOps practices."
+      },
+      {
+        "task": "Build a simple ML model and deploy it as a web service",
+        "time_estimate": "90 min",
+        "reasoning": "This combines his ML skills with practical deployment experience, addressing the professional experience gap."
+      }
+    ],
+    "summary": "Today's plan leverages Abhi's strong technical foundation while addressing his limited professional experience. The LeetCode focus on fundamental data structures will strengthen his interview readiness. Two Google roles have been identified that accept 1 year experience with an advanced degree, matching Abhi's ML specialization and full-stack skills perfectly."
+  },
+  "matched_jobs": [
+    {
+      "company": "Google",
+      "title": "Software Engineer, AI/ML Infrastructure, Ads",
+      "location": "Pittsburgh, PA, USA",
+      "salary_range": "$141,000 - $202,000 + bonus + equity + benefits",
+      "apply_url": "https://www.google.com/about/careers/applications/apply/ceb1612c-03c3-4dfb-b5e3-e84192e96955/form",
+      "description": "Build and maintain scalable ML infrastructure for Google Ads. Work on AI/ML systems that power advertising at massive scale.",
+      "key_requirements": [
+        "Accepts 1 year of experience with advanced degree",
+        "2 years experience developing and maintaining scalable ML infrastructure",
+        "Experience with C++",
+        "Preferred Master's or PhD in Computer Science"
+      ],
+      "match_reason": "This role perfectly aligns with Abhi's ML specialization from his Master's program. His experience with big data frameworks (Hadoop, Spark) and ML projects (CNN, Random Forest) directly applies to building scalable ML infrastructure. His C++ proficiency is a key requirement match.",
+      "skill_gaps": [
+        "Production ML infrastructure at Google scale",
+        "Ads-specific domain knowledge"
+      ],
+      "why_apply": "Google accepts 1 year experience with an advanced degree - Abhi's Master's in Computer Engineering with Data Science specialization qualifies him. Competitive compensation of $141K-$202K + bonus + equity.",
+      "source": "google_careers_yutori"
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer, BigQuery AI Developer Experience",
+      "location": "Kirkland, WA / Seattle, WA, USA",
+      "salary_range": "$141,000 - $202,000 + bonus + equity + benefits",
+      "apply_url": "https://www.google.com/about/careers/applications/apply/bcafa805-1b1f-41f1-b32c-c739d2496312/form",
+      "description": "Build AI-powered developer experiences for BigQuery. Work on full-stack development with Agentic AI frameworks and LLMs, including IDE/extension development.",
+      "key_requirements": [
+        "Accepts 1 year of experience with advanced degree",
+        "Full-stack development across Python/Java/Go",
+        "Experience with Agentic AI frameworks and LLMs",
+        "IDE/extension development (VS Code/IntelliJ)",
+        "Preferred Master's or PhD in Computer Science"
+      ],
+      "match_reason": "This role is an exceptional match for Abhi's full-stack skills (React, Node.js, Python, Java) combined with his ML/AI background. His projects like the Research Paper Recommendation System and Handshake Replica demonstrate exactly the kind of full-stack + AI work this role requires.",
+      "skill_gaps": [
+        "IDE/extension development experience",
+        "Go programming language",
+        "BigQuery specifics"
+      ],
+      "why_apply": "Perfect blend of Abhi's two strengths: full-stack development AND AI/ML. The Agentic AI and LLM requirements align with cutting-edge skills. Same competitive compensation as Role 1.",
+      "source": "google_careers_yutori"
+    }
+  ],
+  "skill_gaps": [
+    {
+      "id": 1,
+      "topic": "Cloud Platforms",
+      "priority": "HIGH",
+      "current_state": "Only Google Cloud (Flask deployment) experience",
+      "target_skills": ["AWS (EC2, S3, Lambda)", "Google Cloud Platform (BigQuery, Cloud Functions, GKE)"],
+      "resources": {
+        "free": [
+          {
+            "title": "AWS Fundamentals 2024 Q2 Intro",
+            "type": "YouTube",
+            "url": "https://www.youtube.com/watch?v=AWS_FUNDAMENTALS_2024"
+          },
+          {
+            "title": "Getting Started with BigQuery",
+            "type": "YouTube",
+            "url": "https://www.youtube.com/watch?v=BIGQUERY_INTRO"
+          }
+        ],
+        "paid": [
+          {
+            "title": "Google Business Intelligence Professional Certificate",
+            "platform": "Coursera",
+            "cost": "~$49/month (~$300 total)",
+            "url": "https://www.coursera.org/professional-certificates/google-business-intelligence"
+          }
+        ]
+      },
+      "estimated_time": "AWS: 6-8 weeks (2-3 hrs/wk); BigQuery: 4-6 weeks (2-3 hrs/wk)",
+      "hands_on_project": "Serverless ML data pipeline using Lambda → S3, BigQuery via Cloud Functions, BigQuery ML, Looker Studio",
+      "status": "not_started"
+    },
+    {
+      "id": 2,
+      "topic": "DevOps & Containerization",
+      "priority": "HIGH",
+      "current_state": "No Docker or Kubernetes experience",
+      "target_skills": ["Docker fundamentals", "Kubernetes basics", "CI/CD pipelines"],
+      "resources": {
+        "free": [
+          {
+            "title": "Day 1/40 Docker Tutorial for Beginners",
+            "type": "YouTube",
+            "url": "https://www.youtube.com/watch?v=DOCKER_TUTORIAL_DAY1"
+          },
+          {
+            "title": "Free Kubernetes Full Course (Day 0/40)",
+            "type": "YouTube",
+            "url": "https://www.youtube.com/watch?v=K8S_FULL_COURSE"
+          }
+        ],
+        "paid": [
+          {
+            "title": "Kubernetes for Beginners",
+            "platform": "Coursera/Packt",
+            "cost": "~$199",
+            "url": "https://www.coursera.org/learn/kubernetes-beginners"
+          }
+        ]
+      },
+      "estimated_time": "Docker: 3-4 weeks (1-2 hrs/wk); Kubernetes: 5-6 weeks (2-3 hrs/wk)",
+      "hands_on_project": "Containerized ML model with Docker, deploy to local Kubernetes via Helm, expose with Ingress and HPA",
+      "status": "not_started"
+    },
+    {
+      "id": 3,
+      "topic": "Go Programming Language",
+      "priority": "MEDIUM",
+      "current_state": "Proficient in Python and Java, no Go experience",
+      "target_skills": ["Go syntax and idioms", "Concurrency with goroutines", "Go Cloud SDK"],
+      "resources": {
+        "free": [
+          {
+            "title": "Full Golang Tutorial by Building a TodoList App",
+            "type": "YouTube",
+            "url": "https://www.youtube.com/watch?v=GOLANG_TODOLIST"
+          }
+        ],
+        "paid": [
+          {
+            "title": "Learn Go Like Google Engineers Do",
+            "platform": "Udemy",
+            "cost": "~$19.99",
+            "url": "https://www.udemy.com/course/learn-go-google-engineers"
+          }
+        ]
+      },
+      "estimated_time": "3-4 weeks (1-2 hrs/wk)",
+      "hands_on_project": "Go-based BigQuery microservice using Go Cloud SDK, concurrent processing with goroutines, REST + Prometheus",
+      "status": "not_started"
+    },
+    {
+      "id": 4,
+      "topic": "System Design at Scale",
+      "priority": "HIGH",
+      "current_state": "Academic distributed systems knowledge, limited production experience",
+      "target_skills": ["System design interview prep", "Designing ML systems at scale", "Microservices architecture"],
+      "resources": {
+        "free": [
+          {
+            "title": "System Design Concepts Course and Interview Prep",
+            "type": "YouTube",
+            "url": "https://www.youtube.com/watch?v=SYSTEM_DESIGN_CONCEPTS"
+          }
+        ],
+        "paid": [
+          {
+            "title": "System Design Masterclass",
+            "platform": "Udemy",
+            "cost": "~$19.99",
+            "url": "https://www.udemy.com/course/system-design-masterclass"
+          }
+        ]
+      },
+      "estimated_time": "6-8 weeks (2-3 hrs/wk)",
+      "hands_on_project": "Scalable ML model serving with versioning, feature store, load balancing, A/B testing, and monitoring",
+      "status": "not_started"
+    },
+    {
+      "id": 5,
+      "topic": "IDE/Extension Development",
+      "priority": "MEDIUM",
+      "current_state": "No experience in VS Code or IntelliJ extension development",
+      "target_skills": ["VS Code extension API", "IntelliJ plugin development", "Language server protocol"],
+      "resources": {
+        "free": [
+          {
+            "title": "20 Essential VS Code Extensions",
+            "type": "YouTube",
+            "url": "https://www.youtube.com/watch?v=VSCODE_EXTENSIONS"
+          }
+        ],
+        "paid": [
+          {
+            "title": "Visual Studio Code Extension Development",
+            "platform": "Udemy",
+            "cost": "~$19.99",
+            "url": "https://www.udemy.com/course/vscode-extension-development"
+          }
+        ]
+      },
+      "estimated_time": "3-4 weeks (1-2 hrs/wk)",
+      "hands_on_project": "BigQuery SQL auto-generator VS Code extension with syntax highlighting and error checks for GCP patterns",
+      "status": "not_started"
+    },
+    {
+      "id": 6,
+      "topic": "Modern ML Infrastructure (MLOps)",
+      "priority": "HIGH",
+      "current_state": "Has ML model building experience but not production ML pipelines",
+      "target_skills": ["MLOps", "Model deployment", "ML monitoring", "Feature stores", "TFX", "Kubeflow"],
+      "resources": {
+        "free": [
+          {
+            "title": "MLOps Zoomcamp 2024",
+            "type": "YouTube",
+            "url": "https://www.youtube.com/watch?v=MLOPS_ZOOMCAMP_2024"
+          }
+        ],
+        "paid": [
+          {
+            "title": "MLOps 2024",
+            "platform": "Udemy",
+            "cost": "~$19.99",
+            "url": "https://www.udemy.com/course/mlops-2024"
+          }
+        ]
+      },
+      "estimated_time": "6-8 weeks (2-3 hrs/wk)",
+      "hands_on_project": "TFX pipeline on BigQuery data, validate with Evidently, deploy to Vertex AI, automate via Cloud Build",
+      "status": "not_started"
+    },
+    {
+      "id": 7,
+      "topic": "Advanced SQL & BigQuery",
+      "priority": "MEDIUM",
+      "current_state": "Has MySQL/Oracle experience but needs BigQuery-specific skills",
+      "target_skills": ["Window functions", "CTEs", "Query optimization", "BigQuery SQL specifics", "Partitioning", "Clustering"],
+      "resources": {
+        "free": [
+          {
+            "title": "SQL Window Functions Guide",
+            "type": "LearnSQL",
+            "url": "https://learnsql.com/blog/sql-window-functions/"
+          }
+        ],
+        "paid": [
+          {
+            "title": "Master SQL with BigQuery using AI Tools",
+            "platform": "Udemy",
+            "cost": "~$19.99",
+            "url": "https://www.udemy.com/course/master-sql-bigquery-ai"
+          }
+        ]
+      },
+      "estimated_time": "3-4 weeks (1-2 hrs/wk)",
+      "hands_on_project": "NYC Taxi analysis in BigQuery using window functions, partitioning, clustering, and cost-aware optimization",
+      "status": "not_started"
+    }
+  ],
+  "skill_gaps_summary": {
+    "total_gaps": 7,
+    "high_priority": 4,
+    "medium_priority": 3,
+    "total_estimated_weeks": "30-42 weeks",
+    "recommended_focus_order": [
+      "System Design at Scale",
+      "Cloud Platforms (BigQuery focus)",
+      "Modern ML Infrastructure (MLOps)",
+      "DevOps & Containerization",
+      "Go Programming Language",
+      "Advanced SQL & BigQuery",
+      "IDE/Extension Development"
+    ],
+    "role_alignment": {
+      "ai_ml_infrastructure_ads": ["Cloud Platforms", "System Design at Scale", "Modern ML Infrastructure", "DevOps & Containerization"],
+      "bigquery_ai_developer_experience": ["Cloud Platforms", "Go Programming Language", "IDE/Extension Development", "Advanced SQL & BigQuery"]
+    }
+  },
+  "agent_thoughts": [
+    "Planner Agent: Analyzing Abhi's resume - Master's in Computer Engineering with Data Science specialization...",
+    "Planner Agent: Identified key strengths: ML/Data Science, Full-stack development, C++/Python/Java proficiency",
+    "Planner Agent: Created daily plan focusing on Arrays, Strings, SQL, Data Structures",
+    "Job Matcher Agent: Searching Google Careers using Yutori Browsing API...",
+    "Job Matcher Agent: 🔍 Found 2 roles matching ML + Full-stack + 1yr experience with advanced degree...",
+    "Job Matcher Agent: ✅ Software Engineer, AI/ML Infrastructure, Ads - Pittsburgh, PA ($141K-$202K)",
+    "Job Matcher Agent: ✅ Software Engineer, BigQuery AI Developer Experience - Kirkland/Seattle, WA ($141K-$202K)",
+    "Job Matcher Agent: Both roles accept 1 year experience with advanced degree - PERFECT for Abhi!",
+    "Job Matcher Agent: Completed with 2 highly-matched Google roles!",
+    "Skill Gap Analyzer: Identified 7 skill gaps via Yutori Research API...",
+    "Skill Gap Analyzer: 4 HIGH priority gaps: Cloud Platforms, DevOps, System Design, MLOps",
+    "Skill Gap Analyzer: 3 MEDIUM priority gaps: Go Language, IDE Extensions, Advanced SQL",
+    "Skill Gap Analyzer: ✅ Curated learning resources with free/paid options for each gap"
+  ],
+  "stream_events": []
+}

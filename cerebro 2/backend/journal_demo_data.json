@@ -1,0 +1,168 @@
+[
+  {
+    "date": "2026-01-08",
+    "day_name": "Thursday",
+    "target": {
+      "apps": 5,
+      "leetcode": 5
+    },
+    "actual": {
+      "apps": 2,
+      "leetcode": [
+        {
+          "title": "Add Two Numbers",
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    "mood": "ANGER",
+    "job_details": [
+      {
+        "role": "Frontend Developer",
+        "company": "Testify",
+        "platform": "LinkedIn",
+        "status": "applied"
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Meta",
+        "platform": "LinkedIn",
+        "status": "applied"
+      }
+    ]
+  },
+  {
+    "date": "2026-01-09",
+    "day_name": "Friday",
+    "target": {
+      "apps": 5,
+      "leetcode": 5
+    },
+    "actual": {
+      "apps": 1,
+      "leetcode": [
+        {
+          "title": "Add Two Numbers",
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    "mood": "ANGER",
+    "job_details": [
+      {
+        "role": "Frontend Developer",
+        "company": "DataWiz",
+        "platform": "LinkedIn",
+        "status": "applied"
+      }
+    ]
+  },
+  {
+    "date": "2026-01-10",
+    "day_name": "Saturday",
+    "target": {
+      "apps": 5,
+      "leetcode": 5
+    },
+    "actual": {
+      "apps": 1,
+      "leetcode": [
+        {
+          "title": "Container With Most Water",
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    "mood": "SADNESS",
+    "job_details": [
+      {
+        "role": "Frontend Developer",
+        "company": "Meta",
+        "platform": "LinkedIn",
+        "status": "applied"
+      }
+    ]
+  },
+  {
+    "date": "2026-01-11",
+    "day_name": "Sunday",
+    "target": {
+      "apps": 5,
+      "leetcode": 5
+    },
+    "actual": {
+      "apps": 1,
+      "leetcode": [
+        {
+          "title": "Climbing Stairs",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    "mood": "ANGER",
+    "job_details": [
+      {
+        "role": "Frontend Developer",
+        "company": "NetSecure",
+        "platform": "LinkedIn",
+        "status": "applied"
+      }
+    ]
+  },
+  {
+    "date": "2026-01-12",
+    "day_name": "Monday",
+    "target": {
+      "apps": 5,
+      "leetcode": 5
+    },
+    "actual": {
+      "apps": 1,
+      "leetcode": []
+    },
+    "mood": "LOGIC",
+    "job_details": [
+      {
+        "role": "Frontend Developer",
+        "company": "Testify",
+        "platform": "LinkedIn",
+        "status": "applied"
+      }
+    ]
+  },
+  {
+    "date": "2026-01-13",
+    "day_name": "Tuesday",
+    "target": {
+      "apps": 5,
+      "leetcode": 5
+    },
+    "actual": {
+      "apps": 1,
+      "leetcode": []
+    },
+    "mood": "ANGER",
+    "job_details": [
+      {
+        "role": "Frontend Developer",
+        "company": "HelpDeskPro",
+        "platform": "LinkedIn",
+        "status": "applied"
+      }
+    ]
+  },
+  {
+    "date": "2026-01-14",
+    "day_name": "Wednesday",
+    "target": {
+      "apps": 5,
+      "leetcode": 5
+    },
+    "actual": {
+      "apps": 0,
+      "leetcode": []
+    },
+    "mood": "ANGER",
+    "job_details": []
+  }
+]

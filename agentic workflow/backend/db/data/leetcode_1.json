@@ -1,0 +1,108 @@
+{
+  "username": "Ramya_Gopalaswamy",
+  "verified_at": "2026-01-16T19:32:17.538Z",
+  "profile_url": "https://leetcode.com/u/Ramya_Gopalaswamy/",
+  "stats": {
+    "total_solved": 25,
+    "difficulty_breakdown": {
+      "easy": 11,
+      "medium": 13,
+      "hard": 1
+    },
+    "total_problems_on_leetcode": 3808
+  },
+  "recent_submissions": [
+    {
+      "problem": "Palindrome Number",
+      "when": "10 days ago",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/palindrome-number/"
+    },
+    {
+      "problem": "Valid Parentheses",
+      "when": "15 days ago",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/valid-parentheses/"
+    },
+    {
+      "problem": "Longest Common Prefix",
+      "when": "15 days ago",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/longest-common-prefix/"
+    },
+    {
+      "problem": "Two Sum",
+      "when": "16 days ago",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/two-sum/"
+    },
+    {
+      "problem": "Step-By-Step Directions From a Binary Tree Node to Another",
+      "when": "3 months ago",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/"
+    },
+    {
+      "problem": "Find All Numbers Disappeared in an Array",
+      "when": "3 months ago",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/"
+    },
+    {
+      "problem": "Lemonade Change",
+      "when": "4 months ago",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/lemonade-change/"
+    },
+    {
+      "problem": "Shortest Path in a Grid with Obstacles Elimination",
+      "when": "4 months ago",
+      "difficulty": "Hard",
+      "url": "https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/"
+    },
+    {
+      "problem": "Climbing Stairs",
+      "when": "4 months ago",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/climbing-stairs/"
+    },
+    {
+      "problem": "House Robber",
+      "when": "4 months ago",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/house-robber/"
+    },
+    {
+      "problem": "Longest Palindrome",
+      "when": "4 months ago",
+      "difficulty": "Easy",
+      "url": "https://leetcode.com/problems/longest-palindrome/"
+    },
+    {
+      "problem": "Contiguous Array",
+      "when": "4 months ago",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/contiguous-array/"
+    },
+    {
+      "problem": "Subarray Sum Equals K",
+      "when": "4 months ago",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/subarray-sum-equals-k/"
+    },
+    {
+      "problem": "Spiral Matrix",
+      "when": "4 months ago",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/spiral-matrix/"
+    },
+    {
+      "problem": "Evaluate Reverse Polish Notation",
+      "when": "5 months ago",
+      "difficulty": "Medium",
+      "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/"
+    }
+  ],
+  "verification_source": "tinyfish_sse",
+  "run_id": "41f61d37-9f90-4dc9-8116-3caf11429ac6"
+}

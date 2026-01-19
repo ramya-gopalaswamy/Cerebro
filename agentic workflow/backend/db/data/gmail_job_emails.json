@@ -1,0 +1,88 @@
+{
+  "verified_at": "2026-01-16T19:45:00.000Z",
+  "email_account": "user@gmail.com",
+  "verification_source": "tinyfish_sse",
+  "applications": [
+    {
+      "company": "Infotech Private Limited",
+      "subject": "Application Submitted Successfully - Infotech Private Limited (Demo)",
+      "date": "2026-01-14",
+      "status": "submitted",
+      "position": "Software Engineer",
+      "email_from": "careers@infotech.com",
+      "category": "application_confirmation"
+    },
+    {
+      "company": "Techstart",
+      "subject": "Application Submitted Successfully - Techstart(Demo)",
+      "date": "2026-01-13",
+      "status": "submitted",
+      "position": "Full Stack Developer",
+      "email_from": "hr@techstart.io",
+      "category": "application_confirmation"
+    }
+  ],
+  "interviews": [
+    {
+      "company": "Kinara Private Limited",
+      "subject": "Interview Scheduled – Frontend Developer Position (Kinara Private Limited)",
+      "date": "2026-01-15",
+      "position": "Frontend Developer",
+      "interview_type": "scheduled",
+      "email_from": "recruitment@kinara.com",
+      "category": "interview_invite",
+      "details": {
+        "interview_date": "2026-01-20",
+        "interview_time": "10:00 AM IST",
+        "interview_format": "Video Call",
+        "interviewer": "Technical Team"
+      }
+    }
+  ],
+  "updates": [
+    {
+      "company": "XYZ Company Limited",
+      "subject": "Update on Your Job Application - XYZ Company Limited",
+      "date": "2026-01-12",
+      "status": "update",
+      "position": "Software Developer",
+      "email_from": "noreply@xyzcompany.com",
+      "category": "application_update",
+      "update_type": "status_change"
+    }
+  ],
+  "rejections": [
+    {
+      "company": "Acme Corp",
+      "subject": "Thank you for your application - Acme Corp",
+      "date": "2026-01-11",
+      "status": "rejected",
+      "position": "Backend Engineer",
+      "email_from": "careers@acmecorp.com",
+      "category": "rejection",
+      "message": "After careful consideration, we have decided to move forward with other candidates."
+    }
+  ],
+  "summary": {
+    "total_applications": 2,
+    "total_interviews": 1,
+    "total_rejections": 1,
+    "total_updates": 1,
+    "total_emails_found": 5,
+    "companies_applied": [
+      "Infotech Private Limited",
+      "Techstart",
+      "XYZ Company Limited",
+      "Kinara Private Limited",
+      "Acme Corp"
+    ],
+    "pending_interviews": 1,
+    "applications_this_week": 2
+  },
+  "daily_progress": {
+    "applications_target": 2,
+    "applications_completed": 2,
+    "applications_verified": true,
+    "completion_percentage": 100
+  }
+}

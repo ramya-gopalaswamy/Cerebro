@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-01-07",
+    "applications": 2,
+    "leetcode_suggested": {"easy": 1, "medium": 1, "hard": 0},
+    "leetcode_solved": {"easy": 1, "medium": 0, "hard": 0},
+    "notes": "Solved one easy problem, skipped the medium."
+  },
+  {
+    "date": "2026-01-08",
+    "applications": 1,
+    "leetcode_suggested": {"easy": 1, "medium": 0, "hard": 0},
+    "leetcode_solved": {"easy": 1, "medium": 0, "hard": 0},
+    "notes": "Solved one easy problem."
+  },
+  {
+    "date": "2026-01-09",
+    "applications": 0,
+    "leetcode_suggested": {"easy": 0, "medium": 1, "hard": 0},
+    "leetcode_solved": {"easy": 0, "medium": 1, "hard": 0},
+    "notes": "Solved one medium problem."
+  },
+  {
+    "date": "2026-01-10",
+    "applications": 0,
+    "leetcode_suggested": {"easy": 0, "medium": 0, "hard": 1},
+    "leetcode_solved": {"easy": 0, "medium": 0, "hard": 0},
+    "notes": "Skipped the hard problem."
+  },
+  {
+    "date": "2026-01-11",
+    "applications": 0,
+    "leetcode_suggested": {"easy": 0, "medium": 0, "hard": 0},
+    "leetcode_solved": {"easy": 0, "medium": 0, "hard": 0},
+    "notes": "No leetcode today."
+  },
+  {
+    "date": "2026-01-12",
+    "applications": 0,
+    "leetcode_suggested": {"easy": 0, "medium": 0, "hard": 0},
+    "leetcode_solved": {"easy": 0, "medium": 0, "hard": 0},
+    "notes": "No leetcode today."
+  },
+  {
+    "date": "2026-01-13",
+    "applications": 0,
+    "leetcode_suggested": {"easy": 0, "medium": 0, "hard": 0},
+    "leetcode_solved": {"easy": 0, "medium": 0, "hard": 0},
+    "notes": "No activity."
+  }
+]

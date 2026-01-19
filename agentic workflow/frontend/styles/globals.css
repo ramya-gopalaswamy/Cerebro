@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-joy: #FFD700;
+  --color-sadness: #5B8DD9;
+  --color-anger: #E53935;
+  --color-fear: #9C27B0;
+  --color-disgust: #4CAF50;
+  --color-anxiety: #FF6F00;
+  --color-purple-glow: rgba(168, 85, 247, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Main background with Inside Out image */
+.inside-out-bg {
+  background-image: url('/background2.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  position: relative;
+}
+
+.inside-out-bg::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(26, 26, 46, 0.3) 0%,
+    rgba(74, 26, 107, 0.4) 50%,
+    rgba(26, 26, 46, 0.5) 100%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Headquarters Glass Panel Effect */
+.hq-panel {
+  background: linear-gradient(
+    135deg,
+    rgba(74, 26, 107, 0.6) 0%,
+    rgba(107, 45, 92, 0.5) 50%,
+    rgba(26, 26, 46, 0.7) 100%
+  );
+  backdrop-filter: blur(20px);
+  border: 2px solid rgba(168, 85, 247, 0.3);
+  border-radius: 24px;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    0 0 60px rgba(168, 85, 247, 0.2);
+}
+
+.hq-panel-sm {
+  background: linear-gradient(
+    135deg,
+    rgba(74, 26, 107, 0.5) 0%,
+    rgba(107, 45, 92, 0.4) 100%
+  );
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  border-radius: 16px;
+  box-shadow: 
+    0 4px 20px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+/* Memory Orb Styles */
+.memory-orb {
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.memory-orb::before {
+  content: '';
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  width: 30%;
+  height: 30%;
+  background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.memory-orb::after {
+  content: '';
+  position: absolute;
+  bottom: 20%;
+  right: 25%;
+  width: 15%;
+  height: 15%;
+  background: rgba(255,255,255,0.4);
+  border-radius: 50%;
+}
+
+/* Emotion-specific orb glows */
+.orb-joy {
+  background: linear-gradient(135deg, #FFD700 0%, #FFA000 100%);
+  box-shadow: 
+    0 0 30px 10px rgba(255, 215, 0, 0.5),
+    0 0 60px 20px rgba(255, 215, 0, 0.3),
+    inset 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.orb-sadness {
+  background: linear-gradient(135deg, #5B8DD9 0%, #2E4A7D 100%);
+  box-shadow: 
+    0 0 30px 10px rgba(91, 141, 217, 0.5),
+    0 0 60px 20px rgba(91, 141, 217, 0.3),
+    inset 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.orb-anger {
+  background: linear-gradient(135deg, #E53935 0%, #B71C1C 100%);
+  box-shadow: 
+    0 0 30px 10px rgba(229, 57, 53, 0.5),
+    0 0 60px 20px rgba(229, 57, 53, 0.3),
+    inset 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+
+.orb-anxiety {
+  background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%);
+  box-shadow: 
+    0 0 30px 10px rgba(156, 39, 176, 0.5),
+    0 0 60px 20px rgba(156, 39, 176, 0.3),
+    inset 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.orb-disgust {
+  background: linear-gradient(135deg, #4CAF50 0%, #388E3C 100%);
+  box-shadow: 
+    0 0 30px 10px rgba(76, 175, 80, 0.5),
+    0 0 60px 20px rgba(76, 175, 80, 0.3),
+    inset 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Console/Control Panel Button */
+.console-btn {
+  background: linear-gradient(180deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.05) 100%);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.console-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.console-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(168, 85, 247, 0.4);
+  border-color: rgba(168, 85, 247, 0.5);
+}
+
+.console-btn:hover::before {
+  left: 100%;
+}
+
+.console-btn-primary {
+  background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%);
+  border-color: rgba(156, 39, 176, 0.5);
+}
+
+.console-btn-primary:hover {
+  background: linear-gradient(135deg, #AB47BC 0%, #8E24AA 100%);
+  box-shadow: 0 8px 30px rgba(156, 39, 176, 0.5);
+}
+
+.console-btn-joy {
+  background: linear-gradient(135deg, #FFD700 0%, #FFA000 100%);
+  border-color: rgba(255, 215, 0, 0.5);
+  color: #1a1a2e;
+}
+
+.console-btn-joy:hover {
+  box-shadow: 0 8px 30px rgba(255, 215, 0, 0.5);
+}
+
+/* Memory Stream Effect */
+.memory-stream {
+  position: relative;
+  overflow: hidden;
+}
+
+.memory-stream::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, 
+    transparent 0%,
+    rgba(168, 85, 247, 0.1) 50%,
+    transparent 100%
+  );
+  animation: shimmer 3s linear infinite;
+  pointer-events: none;
+}
+
+/* Floating particles */
+.floating-orbs {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.floating-orb {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: float 8s ease-in-out infinite;
+}
+
+/* Input field styling */
+.hq-input {
+  background: rgba(26, 26, 46, 0.6);
+  border: 2px solid rgba(168, 85, 247, 0.3);
+  border-radius: 12px;
+  padding: 12px 16px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.hq-input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.hq-input:focus {
+  outline: none;
+  border-color: rgba(168, 85, 247, 0.6);
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.3);
+}
+
+/* Title styling */
+.hq-title {
+  font-family: 'Fredoka One', cursive;
+  background: linear-gradient(135deg, #FFD700 0%, #FFA000 50%, #FFD700 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 30px rgba(255, 215, 0, 0.3);
+  letter-spacing: 2px;
+}
+
+/* Difficulty badges */
+.badge-easy {
+  background: linear-gradient(135deg, #4CAF50 0%, #388E3C 100%);
+  color: white;
+}
+
+.badge-medium {
+  background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+  color: white;
+}
+
+.badge-hard {
+  background: linear-gradient(135deg, #E53935 0%, #C62828 100%);
+  color: white;
+}
+
+/* Priority badges */
+.badge-high {
+  background: linear-gradient(135deg, #E53935 0%, #C62828 100%);
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.badge-medium-priority {
+  background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(26, 26, 46, 0.5);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(168, 85, 247, 0.5), rgba(107, 45, 92, 0.5));
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(168, 85, 247, 0.7), rgba(107, 45, 92, 0.7));
+}
+
+/* Jar container styling */
+.memory-jar {
+  background: linear-gradient(180deg, 
+    rgba(255, 255, 255, 0.1) 0%, 
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px 20px 40px 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.memory-jar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  height: 20px;
+  background: linear-gradient(180deg, 
+    rgba(255, 255, 255, 0.3) 0%, 
+    transparent 100%
+  );
+  border-radius: 0 0 50% 50%;
+}
+
+/* Agent thought bubble */
+.thought-bubble {
+  background: linear-gradient(135deg, 
+    rgba(91, 141, 217, 0.3) 0%, 
+    rgba(46, 74, 125, 0.4) 100%
+  );
+  border: 1px solid rgba(91, 141, 217, 0.4);
+  border-radius: 16px;
+  position: relative;
+}
+
+.thought-bubble::before {
+  content: '💭';
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+/* Glassmorphism card legacy support */
+.glass {
+  background: linear-gradient(
+    135deg,
+    rgba(74, 26, 107, 0.5) 0%,
+    rgba(107, 45, 92, 0.4) 50%,
+    rgba(26, 26, 46, 0.6) 100%
+  );
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  border-radius: 20px;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+/* Sparkle effect */
+@keyframes sparkle-pop {
+  0% { transform: scale(0) rotate(0deg); opacity: 1; }
+  50% { transform: scale(1) rotate(180deg); opacity: 1; }
+  100% { transform: scale(0) rotate(360deg); opacity: 0; }
+}
+
+.sparkle {
+  animation: sparkle-pop 0.6s ease-out forwards;
+}

@@ -1,0 +1,266 @@
+{
+  "id": "06ec6d61",
+  "created_at": "2026-01-16T00:19:06.994961",
+  "resume": {
+    "name": "ABHI BALA",
+    "email": "abhibala1995@gmail.com",
+    "phone": "(669)-400-6282",
+    "location": "San Jose, CA",
+    "linkedin": "www.linkedin.com/in/abhi-bala",
+    "github": "https://github.com/AbhiBala95",
+    "years_experience": 1,
+    "current_title": "Software Engineer",
+    "summary": "Computer Engineering graduate with specialization in Data Science and experience in software development, machine learning, and big data technologies.",
+    "skills": [
+      {
+        "name": "Java",
+        "category": "language",
+        "proficiency": "proficient"
+      },
+      {
+        "name": "C++",
+        "category": "language",
+        "proficiency": "proficient"
+      },
+      {
+        "name": "Python",
+        "category": "language",
+        "proficiency": "proficient"
+      },
+      {
+        "name": "Oracle",
+        "category": "database",
+        "proficiency": "proficient"
+      },
+      {
+        "name": "MySQL",
+        "category": "database",
+        "proficiency": "proficient"
+      },
+      {
+        "name": "HBase",
+        "category": "database",
+        "proficiency": "proficient"
+      },
+      {
+        "name": "PHP",
+        "category": "framework",
+        "proficiency": "proficient"
+      },
+      {
+        "name": "JavaScript",
+        "category": "language",
+        "proficiency": "proficient"
+      },
+      {
+        "name": "Node.js",
+        "category": "framework",
+        "proficiency": "proficient"
+      },
+      {
+        "name": "React",
+        "category": "framework",
+        "proficiency": "proficient"
+      },
+      {
+        "name": "Redux",
+        "category": "framework",
+        "proficiency": "proficient"
+      },
+      {
+        "name": "Hadoop",
+        "category": "tool",
+        "proficiency": "proficient"
+      },
+      {
+        "name": "Hive",
+        "category": "tool",
+        "proficiency": "proficient"
+      },
+      {
+        "name": "Pig",
+        "category": "tool",
+        "proficiency": "proficient"
+      },
+      {
+        "name": "Oozie",
+        "category": "tool",
+        "proficiency": "proficient"
+      },
+      {
+        "name": "Zookeeper",
+        "category": "tool",
+        "proficiency": "proficient"
+      },
+      {
+        "name": "Tableau",
+        "category": "tool",
+        "proficiency": "proficient"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Cognizant Technologies Solutions",
+        "title": "Software Engineer",
+        "start_date": "Dec 2017",
+        "end_date": "Oct 2018",
+        "achievements": [
+          "Built and maintained various Line of Business applications of Walmart Finance/POS",
+          "Built an automation for Sales Report Generation and saved 80 man hours/week",
+          "Managed & implemented a feature backlog of 100 requests/month"
+        ],
+        "technologies": [
+          "Java"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master's",
+        "field": "Computer Engineering",
+        "institution": "San Jose State University",
+        "year": "2020",
+        "coursework": [
+          "Data Structures and Algorithms",
+          "Operating Systems",
+          "Machine Learning",
+          "Large Scale Analytics",
+          "Data Mining",
+          "Enterprise Software Platforms",
+          "Distributed Systems",
+          "Computer Architecture",
+          "Advanced Computer Design and System Software"
+        ]
+      },
+      {
+        "degree": "Bachelor's",
+        "field": "Electrical and Electronics Engineering",
+        "institution": "Anna University",
+        "year": "2017",
+        "coursework": []
+      }
+    ],
+    "projects": [
+      {
+        "name": "Big Data Driven California Wildfire Detection",
+        "description": "Machine learning approach to detect forest fires in California based on five factors",
+        "technologies": [
+          "Convolutional Neural Networks",
+          "K-Means Clustering",
+          "Random Forest",
+          "Logistic Regression"
+        ],
+        "achievements": [
+          "Implemented a five-factor based machine learning approach to detect forest fires in California",
+          "Extracted terrain and vegetation information of 2000 potential fire locations from 1 million geospatial data points",
+          "Built an ensemble model to predict forest fire with 98% accuracy"
+        ]
+      },
+      {
+        "name": "Research Paper Recommendation System",
+        "description": "System to identify similar research papers based on content and citation similarity",
+        "technologies": [
+          "Python",
+          "Selenium",
+          "Scrapy",
+          "Flask",
+          "Google Cloud"
+        ],
+        "achievements": [
+          "Scraped over 3,000 research paper data from Semantic Scholar",
+          "Evaluated performance using DCG gain and user feedbacks",
+          "Hosted the system on Google cloud using Flask"
+        ]
+      },
+      {
+        "name": "Distracted Driver Detection using Convolutional Neural Networks",
+        "description": "CNN models to classify driver images into distinct classes",
+        "technologies": [
+          "Python",
+          "cv2",
+          "CNN",
+          "LeNet",
+          "AlexNet",
+          "VGGNet",
+          "ResNet"
+        ],
+        "achievements": [
+          "Trained various CNN models to accurately classify driver images",
+          "Built an ensemble Neural Network model using 3 CNN models",
+          "Compared model performance through data visualization"
+        ]
+      },
+      {
+        "name": "E-commerce Web Application for a Movie Theater",
+        "description": "End-to-end web application for movie ticket purchases",
+        "technologies": [
+          "LAMP Stack",
+          "PayPal"
+        ],
+        "achievements": [
+          "Built a stateful purchasing experience",
+          "Integrated PayPal payments for monetization",
+          "Created a secured user administration & reporting portal",
+          "Built a Personalization engine using user behavior data"
+        ]
+      },
+      {
+        "name": "Handshake Replica",
+        "description": "Job Portal application similar to LinkedIn",
+        "technologies": [
+          "React",
+          "Redux",
+          "Node.js",
+          "Kafka",
+          "JMeter",
+          "Mocha"
+        ],
+        "achievements": [
+          "Built UX using React/Redux and microservice APIs using Node.js",
+          "Enabled push notifications using Kafka message queues & CI/CD in Heroku",
+          "Load tested the application for 100,000 users using JMeter",
+          "Improved code coverage using Mocha tests for the API"
+        ]
+      },
+      {
+        "name": "Fake News Detection System",
+        "description": "System to detect fake news across various media formats",
+        "technologies": [],
+        "achievements": [
+          "Working on building fake news detection for text, images, audio and video"
+        ]
+      }
+    ],
+    "certifications": [],
+    "inferred": {
+      "strengths": [
+        "Machine Learning and Data Science",
+        "Full-stack development",
+        "Project diversity",
+        "Academic excellence"
+      ],
+      "weaknesses": [
+        "Limited professional work experience"
+      ],
+      "ideal_job_types": [
+        "Data Scientist",
+        "Machine Learning Engineer",
+        "Software Engineer",
+        "Full Stack Developer"
+      ],
+      "skills_to_develop": [
+        "Cloud technologies beyond Google Cloud",
+        "DevOps practices"
+      ],
+      "experience_level": "entry",
+      "career_trajectory": "Started as a Software Engineer at Cognizant, then pursued advanced education in Computer Engineering with focus on Data Science. Now positioned for roles combining software engineering and data science/ML.",
+      "interview_focus_areas": [
+        "Machine Learning algorithms",
+        "Data processing at scale",
+        "Full-stack development",
+        "Computer Science fundamentals"
+      ]
+    },
+    "raw_text": "ABHI BALA\n(669)-400-6282 \u2223 abhibala1995@gmail.com \u2223 www.linkedin.com/in/abhi-bala |\nhttps://github.com/AbhiBala95 | San Jose, CA\nEDUCATION\nSan Jose State University, CA Jan 2019 - Dec 2020\nM.S. in Computer Engineering\nSpecialization: Data Science; Current GPA: 3.614\nData Structures and Algorithms, Operating Systems, Machine Learning, Large Scale Analytics, Data Mining, Enterprise Software\nPlatforms,Distributed Systems, Computer Architecture, Advanced Computer Design and System Software.\nAnna University, India Jul 2013 - May 2017\nB.S. in Electrical and Electronics Engineering\nGPA: 3.95. Class Topper (1/600). Top 1% out of 17000 students in the university\nKEY SKILLS\nProgramming Languages : Java, C++ and Python\nDatabase : Oracle, MySQL, and HBase\nWeb Frameworks : PHP, JavaScript(ES6) , node.js, React, Redux\nData Science : Hadoop, Hive, Pig, Oozie, Zookeeper, and Tableau\nPROJECTS\nBig Data Driven California Wildfire Detection Jan 2019 - May 2019\n\u25cf Implemented a five-factor based machine learning approach (Satellite Images, Weather, Terrain, Vegetation and Human\nActivity) to detect the forest fires in California\n\u25cf Extracted terrain and vegetation information of 2000 potential fire locations from 1 million geospatial data points\n\u25cf Used Convolutional neural networks, K- Means Clustering, Random Forest, and Logistic Regression\n\u25cf Built an ensemble model to predict forest fire with 98% accuracy\nResearch Paper Recommendation System May 2019 - Aug 2019\n\u25cf Scraped over 3,000 research paper data from Semantic Scholar with the help of built-in python tools - Selenium and Scrapy\n\u25cf Identified similar papers based on content and citation similarity\n\u25cf Evaluated the performance of the developed system with existing systems using DCG gain and user feedbacks\n\u25cf Hosted the developed system on Google cloud by integrating python scripts and HTML using Flask\nDistracted Driver Detection using Convolution Neural Networks Aug 2019 \u2013 Dec 2019\n\u25cf Resized the input dataset of around 20,000 driver images using built-in python tool cv2\n\u25cf Trained various CNN models like LeNet, AlexNet, VGGNet, ResNet to accurately classify the input images into distinct classes\n\u25cf Built an ensemble Neural Network model using 3 CNN models ( ConvPool, All-CNN and Network In Network)\n\u25cf Compared the results obtained from various CNN models through data visualization to understand their performance &\ncharacteristics\nAn end to end E-commerce Web Application for a Movie Theater Jan 2019 - May 2019\n\u25cf Built a stateful purchasing experience using LAMP Stack.\n\u25cf Integrated PayPal payments to monetize the ticket purchases.\n\u25cf Created a secured user administration & reporting portal.\n\u25cf Built a Personalization engine using user behavior data for upsell opportunities.\nHandshake Replica (Job Portal application similar to LinkedIn)(Ongoing) Jan 2020- May 2020\n\u25cf Built ux using React/Redux and microservice apis using node.js.\n\u25cf Enabled push notifications using kafka message queues & CI/CD in heroku.\n\u25cf Load tested the application for 100,000 users using JMeter .\n\u25cf Improved code coverage using Mocha tests for the API.\nFake News Detection System(Ongoing) Jan 2020-May 2020\n\u25cf Currently working on building fake news detection that is capable of operating efficiently on various mediums like text,\nimages, audio and video\nWORK EXPERIENCE\nSoftware Engineer Dec 2017 - Oct 2018\nCognizant Technologies Solutions, India\n\u25cf Built and maintained various Line of Business applications of Walmart Finance /POS\n\u25cf Built an automation for Sales Report Generation and saved 80 man hours/week\n\u25cf Managed & implemented a feature backlog of 100 requests / month."
+  }
+}

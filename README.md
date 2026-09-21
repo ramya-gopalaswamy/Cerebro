@@ -1,4 +1,5 @@
 Inspiration
+
 Every New Year, I make resolutions, but I rarely follow them through. I also tend to procrastinate and over time I realized that a traditional to do list wasn’t enough to keep me accountable to my goals.
 
 I was also inspired by the movie Inside Out. The characters in the movie show how emotions play a crucial role in human decision-making and motivation. That insight became the foundation of Cerebro.
